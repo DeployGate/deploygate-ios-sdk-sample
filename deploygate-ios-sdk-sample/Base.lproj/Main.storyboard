@@ -14,7 +14,11 @@
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </tableView>
                     <navigationItem key="navigationItem" title="DeployGate iOS SDK Sample" id="dUq-RM-gXd">
-                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="11G-YS-Na0"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="compose" id="11G-YS-Na0">
+                            <connections>
+                                <segue destination="WWg-h4-m8Z" kind="show" id="mSr-3J-CvQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="D57-li-QWk" id="xyt-Be-v7F"/>
@@ -23,6 +27,32 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="svV-cb-tbS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="480" y="824"/>
+        </scene>
+        <!--Send Cusstom Log-->
+        <scene sceneID="Z7d-lQ-wTr">
+            <objects>
+                <viewController id="WWg-h4-m8Z" customClass="SendLogViewController" sceneMemberID="viewController">
+                    <textView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="rLE-Tb-5lz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <navigationItem key="navigationItem" title="Send Cusstom Log" id="u4r-I7-d8h">
+                        <barButtonItem key="rightBarButtonItem" systemItem="done" id="IaR-HV-c2R">
+                            <connections>
+                                <action selector="sendLog:" destination="WWg-h4-m8Z" id="XAn-cz-pcQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="textView" destination="rLE-Tb-5lz" id="cms-Ou-s4L"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZnP-cH-dkX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1165" y="824"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="5ge-0F-nns">

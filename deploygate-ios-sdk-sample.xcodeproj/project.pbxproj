@@ -16,6 +16,7 @@
 		EDCA64251B8DA7FC009837E6 /* deploygate_ios_sdk_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA64241B8DA7FC009837E6 /* deploygate_ios_sdk_sampleTests.m */; };
 		EDCA642F1B8DA864009837E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA642E1B8DA864009837E6 /* SystemConfiguration.framework */; };
 		EDCA64361B8DBE93009837E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA64351B8DBE93009837E6 /* AppDelegate.m */; };
+		EDCA64391B8DC774009837E6 /* SendLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA64381B8DC774009837E6 /* SendLogViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		EDCA64241B8DA7FC009837E6 /* deploygate_ios_sdk_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deploygate_ios_sdk_sampleTests.m; sourceTree = "<group>"; };
 		EDCA642E1B8DA864009837E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		EDCA64351B8DBE93009837E6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EDCA64371B8DC774009837E6 /* SendLogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendLogViewController.h; sourceTree = "<group>"; };
+		EDCA64381B8DC774009837E6 /* SendLogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SendLogViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				EDCA64151B8DA7FC009837E6 /* Images.xcassets */,
 				EDCA64171B8DA7FC009837E6 /* LaunchScreen.xib */,
 				EDCA64081B8DA7FC009837E6 /* Supporting Files */,
+				EDCA64371B8DC774009837E6 /* SendLogViewController.h */,
+				EDCA64381B8DC774009837E6 /* SendLogViewController.m */,
 			);
 			path = "deploygate-ios-sdk-sample";
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDCA64361B8DBE93009837E6 /* AppDelegate.m in Sources */,
+				EDCA64391B8DC774009837E6 /* SendLogViewController.m in Sources */,
 				EDCA64111B8DA7FC009837E6 /* ViewController.m in Sources */,
 				EDCA640B1B8DA7FC009837E6 /* main.m in Sources */,
 			);
