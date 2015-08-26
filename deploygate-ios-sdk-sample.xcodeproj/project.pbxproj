@@ -9,13 +9,13 @@
 /* Begin PBXBuildFile section */
 		81B4ACF5B58956FB308C93D9 /* libPods-deploygate-ios-sdk-sample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14FCF790CAC84679103A695E /* libPods-deploygate-ios-sdk-sample.a */; };
 		EDCA640B1B8DA7FC009837E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA640A1B8DA7FC009837E6 /* main.m */; };
-		EDCA640E1B8DA7FC009837E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA640D1B8DA7FC009837E6 /* AppDelegate.m */; };
 		EDCA64111B8DA7FC009837E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA64101B8DA7FC009837E6 /* ViewController.m */; };
 		EDCA64141B8DA7FC009837E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDCA64121B8DA7FC009837E6 /* Main.storyboard */; };
 		EDCA64161B8DA7FC009837E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDCA64151B8DA7FC009837E6 /* Images.xcassets */; };
 		EDCA64191B8DA7FC009837E6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDCA64171B8DA7FC009837E6 /* LaunchScreen.xib */; };
 		EDCA64251B8DA7FC009837E6 /* deploygate_ios_sdk_sampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA64241B8DA7FC009837E6 /* deploygate_ios_sdk_sampleTests.m */; };
 		EDCA642F1B8DA864009837E6 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDCA642E1B8DA864009837E6 /* SystemConfiguration.framework */; };
+		EDCA64361B8DBE93009837E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCA64351B8DBE93009837E6 /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 		EDCA64091B8DA7FC009837E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCA640A1B8DA7FC009837E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDCA640C1B8DA7FC009837E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EDCA640D1B8DA7FC009837E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EDCA640F1B8DA7FC009837E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		EDCA64101B8DA7FC009837E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDCA64131B8DA7FC009837E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,6 +45,7 @@
 		EDCA64231B8DA7FC009837E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDCA64241B8DA7FC009837E6 /* deploygate_ios_sdk_sampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deploygate_ios_sdk_sampleTests.m; sourceTree = "<group>"; };
 		EDCA642E1B8DA864009837E6 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EDCA64351B8DBE93009837E6 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				EDCA640C1B8DA7FC009837E6 /* AppDelegate.h */,
-				EDCA640D1B8DA7FC009837E6 /* AppDelegate.m */,
+				EDCA64351B8DBE93009837E6 /* AppDelegate.m */,
 				EDCA640F1B8DA7FC009837E6 /* ViewController.h */,
 				EDCA64101B8DA7FC009837E6 /* ViewController.m */,
 				EDCA64121B8DA7FC009837E6 /* Main.storyboard */,
@@ -282,8 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDCA64361B8DBE93009837E6 /* AppDelegate.m in Sources */,
 				EDCA64111B8DA7FC009837E6 /* ViewController.m in Sources */,
-				EDCA640E1B8DA7FC009837E6 /* AppDelegate.m in Sources */,
 				EDCA640B1B8DA7FC009837E6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

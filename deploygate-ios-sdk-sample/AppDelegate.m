@@ -18,7 +18,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    [[DeployGateSDK sharedInstance] launchApplicationWithAuthor:@"your user name" key:@"your application api key" userInfomationEnabled:YES];
+    [[DeployGateSDK sharedInstance] launchApplicationWithAuthor:@"your_user_name" key:@"your_application_apikey" userInfomationEnabled:YES];
     return YES;
 }
 
