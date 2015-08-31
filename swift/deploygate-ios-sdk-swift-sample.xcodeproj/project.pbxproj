@@ -14,6 +14,7 @@
 		EDF477761B9439FC0085C38C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF477751B9439FC0085C38C /* Images.xcassets */; };
 		EDF477791B9439FC0085C38C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF477771B9439FC0085C38C /* LaunchScreen.xib */; };
 		EDF477851B9439FC0085C38C /* deploygate_ios_sdk_swift_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF477841B9439FC0085C38C /* deploygate_ios_sdk_swift_sampleTests.swift */; };
+		EDF477931B944C410085C38C /* SendLogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF477921B944C410085C38C /* SendLogViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,7 @@
 		EDF477831B9439FC0085C38C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF477841B9439FC0085C38C /* deploygate_ios_sdk_swift_sampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deploygate_ios_sdk_swift_sampleTests.swift; sourceTree = "<group>"; };
 		EDF4778E1B943C270085C38C /* deploygate-ios-sdk-swift-sample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "deploygate-ios-sdk-swift-sample-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDF477921B944C410085C38C /* SendLogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendLogViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				EDF477771B9439FC0085C38C /* LaunchScreen.xib */,
 				EDF4776C1B9439FC0085C38C /* Supporting Files */,
 				EDF4778E1B943C270085C38C /* deploygate-ios-sdk-swift-sample-Bridging-Header.h */,
+				EDF477921B944C410085C38C /* SendLogViewController.swift */,
 			);
 			path = "deploygate-ios-sdk-swift-sample";
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF477711B9439FC0085C38C /* ViewController.swift in Sources */,
+				EDF477931B944C410085C38C /* SendLogViewController.swift in Sources */,
 				EDF4776F1B9439FC0085C38C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
