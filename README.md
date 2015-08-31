@@ -10,8 +10,22 @@ For issue tracking see the GitHub issues page: https://github.com/DeployGate/dep
 ```
 $ git clone https://github.com/DeployGate/deploygate-ios-sdk-sample.git
 $ cd deploygate-ios-sdk-sample
+```
+
+## Objective-C
+
+```
+$ cd objective-c/
 $ pod install
 $ open deploygate-ios-sdk-sample.xcworkspace
+```
+
+## Swift
+
+```
+$ cd swift/
+$ pod install
+$ open deploygate-ios-sdk-swift-sample.xcworkspace
 ```
 
 # Contributing
