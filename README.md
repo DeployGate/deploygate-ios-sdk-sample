@@ -1,6 +1,26 @@
 # DeployGate iOS SDK Sample
 This project is [DeployGate iOS SDK](https://deploygate.com/docs/ios_sdk) Sample Project.
 
+For issue tracking see the GitHub issues page: https://github.com/DeployGate/deploygate-ios-sdk-sample/issues
+
+![](/screenshots/preview.png)
+
+# Setup
+
+```
+$ git clone https://github.com/DeployGate/deploygate-ios-sdk-sample.git
+$ cd deploygate-ios-sdk-sample
+$ pod install
+$ open deploygate-ios-sdk-sample.xcworkspace
+```
+
+# Contributing
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+
 # License
 Copyright 2012-2015 DeployGate, henteko
 
