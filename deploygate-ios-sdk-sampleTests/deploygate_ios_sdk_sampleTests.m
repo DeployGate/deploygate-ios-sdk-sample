@@ -3,7 +3,7 @@
 //  deploygate-ios-sdk-sampleTests
 //
 //  Created by kenta.imai on 2015/08/26.
-//  Copyright (c) 2015年 kenta.imai. All rights reserved.
+//  Copyright (c) 2015年 DeployGate. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
