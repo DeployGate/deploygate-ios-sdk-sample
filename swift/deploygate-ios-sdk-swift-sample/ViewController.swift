@@ -46,11 +46,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
 
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        var cell = tableView.cellForRowAtIndexPath(indexPath)
+        let cell = tableView.cellForRowAtIndexPath(indexPath)
         if cell!.textLabel!.text! == authorize {
             DeployGateSDK.sharedInstance().userAuthorizationWithCompletionHandler({ (authorized, error) -> Void in
                 dispatch_async(dispatch_get_main_queue(), { () -> Void in
-                    var alert:UIAlertController = UIAlertController(title: "Authorize", message: authorized ? "Success" : "Failed", preferredStyle: UIAlertControllerStyle.Alert)
+                    let alert:UIAlertController = UIAlertController(title: "Authorize", message: authorized ? "Success" : "Failed", preferredStyle: UIAlertControllerStyle.Alert)
                     alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.Default, handler:nil))
                     self.presentViewController(alert, animated: true, completion: nil)
                 })
