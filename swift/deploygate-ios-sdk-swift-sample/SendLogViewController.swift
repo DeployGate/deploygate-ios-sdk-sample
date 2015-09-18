@@ -20,16 +20,16 @@ class SendLogViewController: UIViewController {
     }
 
     @IBAction func sendLog(sender: AnyObject) {
-        var text = textView.text
+        let text = textView.text
         textView.text = ""
 
         DGSLogv("%@", getVaList([text]))
-        var alert:UIAlertController = UIAlertController(title: "DGSLog Done", message: "Require relaunch app", preferredStyle: UIAlertControllerStyle.Alert)
+        let alert:UIAlertController = UIAlertController(title: "DGSLog Done", message: "Require relaunch app", preferredStyle: UIAlertControllerStyle.Alert)
         alert.addAction(UIAlertAction(title: "Continue", style: UIAlertActionStyle.Cancel, handler:nil))
         alert.addAction(UIAlertAction(title: "Relaunch",
             style: UIAlertActionStyle.Default,
             handler:{
-                (action:UIAlertAction!) -> Void in
+                (action:UIAlertAction) -> Void in
                 exit(0) // finish application
         }))
         presentViewController(alert, animated: true, completion: nil)

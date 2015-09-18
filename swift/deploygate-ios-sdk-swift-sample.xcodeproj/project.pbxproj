@@ -187,7 +187,9 @@
 		EDF477611B9439FC0085C38C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = DeployGate;
 				TargetAttributes = {
 					EDF477681B9439FC0085C38C = {
@@ -341,6 +343,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -411,6 +414,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "deploygate-ios-sdk-swift-sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deploygate.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "deploygate-ios-sdk-swift-sample/deploygate-ios-sdk-swift-sample-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -425,6 +429,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "deploygate-ios-sdk-swift-sample/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deploygate.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "deploygate-ios-sdk-swift-sample/deploygate-ios-sdk-swift-sample-Bridging-Header.h";
 			};
@@ -444,6 +449,7 @@
 				);
 				INFOPLIST_FILE = "deploygate-ios-sdk-swift-sampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deploygate.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deploygate-ios-sdk-swift-sample.app/deploygate-ios-sdk-swift-sample";
 			};
@@ -459,6 +465,7 @@
 				);
 				INFOPLIST_FILE = "deploygate-ios-sdk-swift-sampleTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.deploygate.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deploygate-ios-sdk-swift-sample.app/deploygate-ios-sdk-swift-sample";
 			};
