@@ -1,3 +1,13 @@
+# DEPRECATION NOTICE
+
+**This sample project is no longer maintained or supported.**
+
+This repository was created as a reference implementation for the DeployGate iOS SDK, but it is no longer being updated to reflect current best practices or SDK versions. Users are advised to refer to the [official DeployGate documentation](https://docs.deploygate.com/docs/developer-tools/ios-sdk/) for the most up-to-date information on integrating the DeployGate SDK with iOS applications.
+
+We appreciate your interest in DeployGate, but please note that any issues or pull requests for this sample project will not be addressed.
+
+For questions about current DeployGate integration methods, please contact the DeployGate support team.
+
 # DeployGate iOS SDK Sample
 This project is [DeployGate iOS SDK](https://deploygate.com/docs/ios_sdk) Sample Project.
 
